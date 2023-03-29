@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 350px;
+  row-gap: 10px;
+  background-color: rgba(220, 220, 220, 0.4);
+  padding: 8px;
+  width: 500px;
+  margin-left: 38%;
+}
+.heading {
+  font-size: 2rem;
+}
+.taskInputBox {
+  padding: 8px;
+}
+.taskInputButton {
+  font-size: 1.2rem;
+  padding: 8px;
+  background-color: aquamarine;
+}
+.taskInputButton:hover {
+  background-color: aqua;
+}
